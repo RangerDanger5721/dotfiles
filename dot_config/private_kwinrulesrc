@@ -9,6 +9,17 @@ positionrule=3
 wmclass=firefox
 wmclassmatch=1
 
+[8bc7b56e-27c5-4943-81a8-d1b486c1fe9a]
+Description=Settings for discord
+maximizehoriz=true
+maximizehorizrule=3
+maximizevert=true
+maximizevertrule=3
+position=0,0
+positionrule=3
+wmclass=discord
+wmclassmatch=1
+
 [General]
-count=1
-rules=5d7f8ceb-e978-4f3d-a5d0-c04b4b147113
+count=2
+rules=5d7f8ceb-e978-4f3d-a5d0-c04b4b147113,8bc7b56e-27c5-4943-81a8-d1b486c1fe9a
