@@ -1,0 +1,16 @@
+[General]
+autoSaveImage=true
+clipboardGroup=PostScreenshotCopyImage
+ocrLanguages=afr
+rememberSelectionRect=Never
+useReleaseToCapture=true
+
+[GuiConfig]
+quitAfterSaveCopyExport=true
+
+[ImageSave]
+lastImageSaveLocation=file:///home/ranger/Pictures/Screenshots/Screenshot_20260913_220151.png
+translatedScreenshotsFolder=Screenshots
+
+[VideoSave]
+translatedScreencastsFolder=Screencasts
