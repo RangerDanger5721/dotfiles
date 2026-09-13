@@ -1,0 +1,44 @@
+# ==========================================
+# 1. Prompt & Colors
+# ==========================================
+autoload -U colors && colors
+# Format: [Green user@host] [Blue cwd] %
+PROMPT='%F{green}%n@%m%f:%F{blue}%~%f%# '
+
+# ==========================================
+# 2. History Settings
+# ==========================================
+HISTFILE=~/.zsh_history
+HISTSIZE=10000
+SAVEHIST=10000
+setopt SHARE_HISTORY          # Share history between sessions
+setopt HIST_IGNORE_DUPS       # Ignore immediate duplicates
+setopt HIST_IGNORE_SPACE      # Ignore commands starting with a space
+
+# ==========================================
+# 3. Tab Completion Setup
+# ==========================================
+autoload -Uz compinit
+compinit -C
+
+# Interactive tab completion menu
+zstyle ':completion:*' menu select
+zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}' # Case-insensitive matching
+zstyle ':completion:*' list-colors "${(s.:.)LS_COLORS}"     # Color completions like ls
+
+# ==========================================
+# 4. Antidote Plugin Manager
+# ==========================================
+fpath=(~/.antidote $fpath)
+source ~/.antidote/antidote.zsh
+antidote load
+
+# ==========================================
+# 5. Aliases & Tool Integrations
+# ==========================================
+alias ls='ls --color=auto'
+alias grep='grep --color=auto'
+alias rg='rg --smart-case'
+
+# Initialize zoxide ('z' command)
+eval "$(zoxide init zsh)"
