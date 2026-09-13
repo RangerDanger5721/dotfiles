@@ -83,7 +83,7 @@ last = ["flatpak"]
 # tmux_session_mode = "attach_if_not_in_session"
 
 # Cleanup temporary or old files (default: false)
-cleanup = true
+#cleanup = true
 
 # Send a notification for every step (default: false)
 # notify_each_step = false
@@ -206,7 +206,7 @@ notify_end = "on_failure"
 # arch_package_manager = "pacman"
 
 # Arguments to pass yay (or paru) when updating packages
-yay_arguments = "--nodevel"
+yay_arguments = "--devel=false"
 
 # Arguments to pass dnf when updating packages
 # dnf_arguments = "--refresh"
