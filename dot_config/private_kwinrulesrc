@@ -1,3 +1,14 @@
+[33567ac8-9b29-42d9-93ad-9dbc018cb8f9]
+Description=Window settings for Extension: (Bitwarden Password Manager) - Bitwarden — Mozilla Firefox
+aboverule=3
+minsize=488,575
+minsizerule=2
+position=716,230
+positionrule=5
+title=Extension: (Bitwarden Password Manager) - Bitwarden — Mozilla Firefox
+titlematch=1
+wmclassmatch=1
+
 [5d7f8ceb-e978-4f3d-a5d0-c04b4b147113]
 Description=Settings for firefox
 maximizehoriz=true
@@ -21,5 +32,5 @@ wmclass=discord
 wmclassmatch=1
 
 [General]
-count=2
-rules=5d7f8ceb-e978-4f3d-a5d0-c04b4b147113,8bc7b56e-27c5-4943-81a8-d1b486c1fe9a
+count=3
+rules=5d7f8ceb-e978-4f3d-a5d0-c04b4b147113,8bc7b56e-27c5-4943-81a8-d1b486c1fe9a,33567ac8-9b29-42d9-93ad-9dbc018cb8f9
