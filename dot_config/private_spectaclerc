@@ -9,7 +9,7 @@ useReleaseToCapture=true
 quitAfterSaveCopyExport=true
 
 [ImageSave]
-lastImageSaveLocation=file:///home/ranger/Pictures/Screenshots/Screenshot_20260915_182429.png
+lastImageSaveLocation[$i]=file:///home/ranger/Pictures/Screenshots/Screenshot_20260917_234539.png
 translatedScreenshotsFolder=Screenshots
 
 [VideoSave]
